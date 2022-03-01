@@ -17,7 +17,8 @@ module.exports = {
       white: colors.white,
       green: colors.green,
       gray: colors.trueGray,
-      pink: colors.pink
+      pink: colors.pink,
+      indigo: colors.indigo
     },
     extend: {
       height: {
