@@ -40,7 +40,7 @@
             <label class="block text-sm font-light text-black sm:mt-px sm:pt-2">
               Principal Amt:
             </label>
-            <input type="text" class="appearance-none col-span-2 border-2 border-gray-500 min-w-0 w-full bg-white border border-transparent rounded-md py-1.5 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400 sm:max-w-xs" readonly>
+            <input type="text" class="appearance-none cursor-not-allowed col-span-2 border-2 border-gray-500 min-w-0 w-full bg-white border border-transparent rounded-md py-1.5 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400 sm:max-w-xs" readonly>
           </div>
         </div>
         <div class="grid grid-cols-8 gap-6">
@@ -59,7 +59,7 @@
             <label class="block text-sm font-light text-black sm:mt-px sm:pt-2">
               Repay Amt:
             </label>
-            <input type="text" class="appearance-none col-span-2 border-2 border-gray-500 min-w-0 w-full bg-white border border-transparent rounded-md py-1.5 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400 sm:max-w-xs" readonly>
+            <input type="text" class="cursor-not-allowed appearance-none col-span-2 border-2 border-gray-500 min-w-0 w-full bg-white border border-transparent rounded-md py-1.5 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400 sm:max-w-xs" readonly>
           </div>
         </div>
         <div class="grid grid-cols-8 gap-6">
@@ -78,7 +78,7 @@
             <label class="block text-sm font-light text-black sm:mt-px sm:pt-2">
               Total Interest:
             </label>
-            <input type="text" class="appearance-none col-span-2 border-2 border-gray-500 min-w-0 w-full bg-white border border-transparent rounded-md py-1.5 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400 sm:max-w-xs" readonly>
+            <input type="text" class="cursor-not-allowed appearance-none col-span-2 border-2 border-gray-500 min-w-0 w-full bg-white border border-transparent rounded-md py-1.5 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400 sm:max-w-xs" readonly>
           </div>
         </div>
         <div class="grid grid-cols-8 gap-6">
@@ -101,7 +101,7 @@
             <label class="block text-sm font-light text-black sm:mt-px sm:pt-2">
               Total Repayable:
             </label>
-            <input type="text" class="appearance-none col-span-2 border-2 border-gray-500 min-w-0 w-full bg-white border border-transparent rounded-md py-1.5 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400 sm:max-w-xs" readonly>
+            <input type="text" class="cursor-not-allowed appearance-none col-span-2 border-2 border-gray-500 min-w-0 w-full bg-white border border-transparent rounded-md py-1.5 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400 sm:max-w-xs" readonly>
           </div>
         </div>
         <div class="grid grid-cols-8 gap-6">
@@ -121,9 +121,9 @@
             </label>
             <div class="mt-1 col-span-2 flex space-x-2 rounded-md">
               <div class="relative w-1/2 focus-within:z-10">
-                <input class="appearance-none col-span-2 border-2 border-gray-500 min-w-0 w-full bg-white border border-transparent rounded-md py-1.5 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400 sm:max-w-xs" readonly>
+                <input class="cursor-not-allowed appearance-none col-span-2 border-2 border-gray-500 min-w-0 w-full bg-white border border-transparent rounded-md py-1.5 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400 sm:max-w-xs" readonly>
               </div>
-              <select class="border w-1/2 border-gray-500 h-full py-0 pl-2 pr-7 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md" disabled>
+              <select class="cursor-not-allowed border w-1/2 border-gray-500 h-full py-0 pl-2 pr-7 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md" disabled>
                 <option>Months</option>
                 <option>Years</option>
               </select>
@@ -144,7 +144,7 @@
             </label>
             <div class="mt-1 col-span-2 flex space-x-2 rounded-md shadow-sm">
               <div class="relative flex items-stretch flex-grow focus-within:z-10">
-                <input class="appearance-none col-span-2 border-2 border-gray-500 min-w-0 w-full bg-white border border-transparent rounded-md py-1.5 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400 sm:max-w-xs">
+                <input class="cursor-not-allowed appearance-none col-span-2 border-2 border-gray-500 min-w-0 w-full bg-white border border-transparent rounded-md py-1.5 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400 sm:max-w-xs">
               </div>
               <button @click="mountModal" type="button" class="-ml-px relative inline-flex items-center space-x-2 px-4 py-2 border border-gray-500 text-sm font-medium rounded-md text-gray-700 bg-gray-50 hover:bg-gray-100 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -163,7 +163,7 @@
             </label>
             <div class="mt-1 col-span-2 flex space-x-2 rounded-md shadow-sm">
               <div class="relative flex items-stretch flex-grow focus-within:z-10">
-                <input class="appearance-none col-span-2 border-2 border-gray-500 min-w-0 w-full bg-white border border-transparent rounded-md py-1.5 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400 sm:max-w-xs">
+                <input class="cursor-not-allowed appearance-none col-span-2 border-2 border-gray-500 min-w-0 w-full bg-white border border-transparent rounded-md py-1.5 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400 sm:max-w-xs" readonly>
               </div>
               <button class="-ml-px relative inline-flex items-center space-x-2 px-4 py-2 border border-gray-500 text-sm font-medium rounded-md text-gray-700 bg-gray-50 hover:bg-gray-100 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500" type="button" @click="mountModal">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
