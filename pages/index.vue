@@ -32,7 +32,7 @@
             <input type="text" class="appearance-none col-span-2 border-2 border-gray-500 min-w-0 w-full bg-white border border-transparent rounded-md py-1.5 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400 sm:max-w-xs">
           </div>
           <div class="py-2 col-span-2 flex justify-center">
-            <button type="button" class="flex items-center uppercase justify-center w-48 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-amber-500  hover:bg-opacity-70 sm:px-8">
+            <button type="button" class="flex items-center uppercase justify-center w-32 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-amber-500  hover:bg-opacity-70 sm:px-8">
               Compute
             </button>
           </div>
@@ -51,7 +51,7 @@
             <input type="text" class="appearance-none col-span-2 border-2 border-gray-500 min-w-0 w-full bg-white border border-transparent rounded-md py-1.5 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400 sm:max-w-xs">
           </div>
           <div class="py-2 col-span-2 flex justify-center">
-            <button type="button" class="flex items-center uppercase justify-center w-48 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-900 bg-gray-200 hover:bg-opacity-70 sm:px-8">
+            <button type="button" class="flex items-center uppercase justify-center w-32 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-900 bg-gray-200 hover:bg-opacity-70 sm:px-8">
               Confirm
             </button>
           </div>
@@ -70,7 +70,7 @@
             <input type="text" class="appearance-none col-span-2 border-2 border-gray-500 min-w-0 w-full bg-white border border-transparent rounded-md py-1.5 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400 sm:max-w-xs">
           </div>
           <div class="py-2 col-span-2 flex justify-center">
-            <button type="button" class="flex items-center uppercase justify-center w-48 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-900 bg-gray-200 hover:bg-opacity-70 sm:px-8">
+            <button type="button" class="flex items-center uppercase justify-center w-32 px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-900 bg-gray-200 hover:bg-opacity-70 sm:px-8">
               Print
             </button>
           </div>

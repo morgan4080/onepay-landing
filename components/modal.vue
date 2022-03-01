@@ -1,7 +1,7 @@
 <template>
   <div class="fixed z-10 inset-0 overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
     <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
-      <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" @click="$emit('closeModal')" aria-hidden="true" />
+      <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true" @click="$emit('closeModal')" />
       <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
       <div class="inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full sm:p-6">
         <button class="absolute top-0 right-0" @click="$emit('closeModal')">
@@ -10,7 +10,9 @@
           </svg>
         </button>
         <div class="px-4 py-5 sm:px-6 bg-gray-100">
-          <h3 class="text-lg leading-6 font-medium text-gray-900 uppercase">Other Fees</h3>
+          <h3 class="text-lg leading-6 font-medium text-gray-900 uppercase">
+            Other Fees
+          </h3>
         </div>
         <div class="pb-2">
           <div class="bg-white px-4 py-8 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
