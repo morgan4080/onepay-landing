@@ -13,21 +13,21 @@
           <h3 class="text-lg leading-6 font-medium text-gray-900 uppercase">Other Fees</h3>
         </div>
         <div class="pb-2">
-          <div class="bg-white px-4 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
-            <dt class="text-sm font-medium text-gray-500">
-              Full name
+          <div class="bg-white px-4 py-8 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
+            <dt class="text-sm font-medium text-black">
+              RTGS Fees
             </dt>
             <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 flex items-center justify-end space-x-4">
               <span>
-                Backend Developer
+                KSH 5,000
               </span>
               <button @click="showOverlayInput(1)">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
                 </svg>
               </button>
-              <div v-if="overlayInput === 1" class="absolute top-10 p-3 bg-gray-200 w-1/3">
-                <label class="block text-xs pb-1 px-1 font-thin text-gray-700">
+              <div v-if="overlayInput === 1" class="absolute top-5 p-3 bg-gray-200 w-1/3">
+                <label class="block text-xs pb-1 px-1 font-normal text-black">
                   Customer Name
                 </label>
                 <div class="flex space-x-2">
@@ -48,21 +48,21 @@
               </div>
             </dd>
           </div>
-          <div class="bg-white px-4 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
-            <dt class="text-sm font-medium text-gray-500">
-              Full name
+          <div class="bg-white px-4 py-10 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
+            <dt class="text-sm font-medium text-black">
+              Valuation Fees:
             </dt>
             <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 flex items-center justify-end space-x-4">
               <span>
-                Backend Developer
+                KSH 5,000
               </span>
               <button @click="showOverlayInput(2)">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
                 </svg>
               </button>
-              <div v-if="overlayInput === 2" class="absolute top-10 p-3 bg-gray-200 w-1/3">
-                <label class="block text-xs pb-1 px-1 font-thin text-gray-700">
+              <div v-if="overlayInput === 2" class="absolute top-5 p-3 bg-gray-200 w-1/3">
+                <label class="block text-xs pb-1 px-1 font-normal text-black">
                   Customer Name
                 </label>
                 <div class="flex space-x-2">
@@ -83,21 +83,21 @@
               </div>
             </dd>
           </div>
-          <div class="bg-white px-4 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
-            <dt class="text-sm font-medium text-gray-500">
-              Full name
+          <div class="bg-white px-4 py-8 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
+            <dt class="text-sm font-medium text-black">
+              CRB
             </dt>
             <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 flex items-center justify-end space-x-4">
               <span>
-                Backend Developer
+                KSH 5,000
               </span>
               <button @click="showOverlayInput(3)">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
                 </svg>
               </button>
-              <div v-if="overlayInput === 3" class="absolute top-10 p-3 bg-gray-200 w-1/3">
-                <label class="block text-xs pb-1 px-1 font-thin text-gray-700">
+              <div v-if="overlayInput === 3" class="absolute top-5 p-3 bg-gray-200 w-1/3">
+                <label class="block text-xs pb-1 px-1 font-normal text-black">
                   Customer Name
                 </label>
                 <div class="flex space-x-2">
@@ -118,21 +118,21 @@
               </div>
             </dd>
           </div>
-          <div class="bg-white px-4 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
-            <dt class="text-sm font-medium text-gray-500">
-              Full name
+          <div class="bg-white px-4 py-8 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
+            <dt class="text-sm font-medium text-black">
+              Tracking Installation & Maintenance
             </dt>
             <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 flex items-center justify-end space-x-4">
               <span>
-                Backend Developer
+                KSH 5,000
               </span>
               <button @click="showOverlayInput(4)">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
                 </svg>
               </button>
-              <div v-if="overlayInput === 4" class="absolute top-10 p-3 bg-gray-200 w-1/3">
-                <label class="block text-xs pb-1 px-1 font-thin text-gray-700">
+              <div v-if="overlayInput === 4" class="absolute top-5 p-3 bg-gray-200 w-1/3">
+                <label class="block text-xs pb-1 px-1 font-normal text-black">
                   Customer Name
                 </label>
                 <div class="flex space-x-2">
@@ -153,21 +153,21 @@
               </div>
             </dd>
           </div>
-          <div class="bg-white px-4 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
-            <dt class="text-sm font-medium text-gray-500">
-              Full name
+          <div class="bg-white px-4 py-8 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
+            <dt class="text-sm font-medium text-black">
+              Tracking Fees Monthly
             </dt>
             <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 flex items-center justify-end space-x-4">
               <span>
-                Backend Developer
+                KSH 5,000
               </span>
               <button @click="showOverlayInput(5)">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
                 </svg>
               </button>
-              <div v-if="overlayInput === 5" class="absolute top-10 p-3 bg-gray-200 w-1/3">
-                <label class="block text-xs pb-1 px-1 font-thin text-gray-700">
+              <div v-if="overlayInput === 5" class="absolute top-5 p-3 bg-gray-200 w-1/3">
+                <label class="block text-xs pb-1 px-1 font-normal text-black">
                   Customer Name
                 </label>
                 <div class="flex space-x-2">
@@ -188,21 +188,21 @@
               </div>
             </dd>
           </div>
-          <div class="bg-white px-4 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
-            <dt class="text-sm font-medium text-gray-500">
-              Full name
+          <div class="bg-white px-4 py-8 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
+            <dt class="text-sm font-medium text-black">
+              Insurance Fees
             </dt>
             <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 flex items-center justify-end space-x-4">
               <span>
-                Backend Developer
+                KSH 5,000
               </span>
               <button @click="showOverlayInput(6)">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
                 </svg>
               </button>
-              <div v-if="overlayInput === 6" class="absolute top-10 p-3 bg-gray-200 w-1/3">
-                <label class="block text-xs pb-1 px-1 font-thin text-gray-700">
+              <div v-if="overlayInput === 6" class="absolute top-5 p-3 bg-gray-200 w-1/3">
+                <label class="block text-xs pb-1 px-1 font-normal text-black">
                   Customer Name
                 </label>
                 <div class="flex space-x-2">
@@ -223,20 +223,20 @@
               </div>
             </dd>
           </div>
-          <div class="bg-white px-4 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
-            <dt class="text-sm font-medium text-gray-500">
-              Full name
+          <div class="bg-white px-4 py-8 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
+            <dt class="text-sm font-medium text-black">
+              Insurance Deductions
             </dt>
             <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 flex items-center justify-end space-x-4">
               <span>
-                Backend Developer
+                KSH 5,000
               </span>
               <button @click="showOverlayInput(7)">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
                 </svg>
               </button>
-              <div v-if="overlayInput === 7" class="absolute top-10 p-3 bg-gray-200 w-1/3">
+              <div v-if="overlayInput === 7" class="absolute top-5 p-3 bg-gray-200 w-1/3">
                 <label class="block text-xs pb-1 px-1 font-thin text-gray-700">
                   Customer Name
                 </label>
@@ -258,20 +258,20 @@
               </div>
             </dd>
           </div>
-          <div class="bg-white px-4 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
-            <dt class="text-sm font-medium text-gray-500">
-              Full name
+          <div class="bg-white px-4 py-8 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
+            <dt class="text-sm font-medium text-black">
+              Insurance Fees
             </dt>
             <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 flex items-center justify-end space-x-4">
               <span>
-                Backend Developer
+                KSH 5,000
               </span>
               <button @click="showOverlayInput(8)">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
                 </svg>
               </button>
-              <div v-if="overlayInput === 8" class="absolute top-10 p-3 bg-gray-200 w-1/3">
+              <div v-if="overlayInput === 8" class="absolute top-5 p-3 bg-gray-200 w-1/3">
                 <label class="block text-xs pb-1 px-1 font-thin text-gray-700">
                   Customer Name
                 </label>
@@ -293,20 +293,20 @@
               </div>
             </dd>
           </div>
-          <div class="bg-white px-4 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
-            <dt class="text-sm font-medium text-gray-500">
-              Full name
+          <div class="bg-white px-4 py-8 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
+            <dt class="text-sm font-medium text-black">
+              Lawyers Fees
             </dt>
             <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 flex items-center justify-end space-x-4">
               <span>
-                Backend Developer
+                KSH 5,000
               </span>
               <button @click="showOverlayInput(9)">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
                 </svg>
               </button>
-              <div v-if="overlayInput === 9" class="absolute top-10 p-3 bg-gray-200 w-1/3">
+              <div v-if="overlayInput === 9" class="absolute top-5 p-3 bg-gray-200 w-1/3">
                 <label class="block text-xs pb-1 px-1 font-thin text-gray-700">
                   Customer Name
                 </label>
@@ -328,20 +328,20 @@
               </div>
             </dd>
           </div>
-          <div class="bg-white px-4 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
-            <dt class="text-sm font-medium text-gray-500">
-              Full name
+          <div class="bg-white px-4 py-8 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6 relative">
+            <dt class="text-sm font-medium text-black">
+              Processing Fees (%)
             </dt>
             <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 flex items-center justify-end space-x-4">
               <span>
-                Backend Developer
+                KSH 5,000
               </span>
               <button @click="showOverlayInput(10)">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
                 </svg>
               </button>
-              <div v-if="overlayInput === 10" class="absolute top-10 p-3 bg-gray-200 w-1/3">
+              <div v-if="overlayInput === 10" class="absolute top-5 p-3 bg-gray-200 w-1/3">
                 <label class="block text-xs pb-1 px-1 font-thin text-gray-700">
                   Customer Name
                 </label>
