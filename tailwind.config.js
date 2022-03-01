@@ -17,8 +17,12 @@ module.exports = {
       white: colors.white,
       green: colors.green,
       gray: colors.trueGray,
+<<<<<<< HEAD
       pink: colors.pink,
       indigo: colors.indigo
+=======
+      pink: colors.pink
+>>>>>>> 8d05d657c72bf6ad6205fd3582af8d92c3498a64
     },
     extend: {
       height: {
